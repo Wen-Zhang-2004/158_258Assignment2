@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Generate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="@Url.Content("~/Content/Questionnaire.css")" />
+<div id="question-container" class="center-screen">
+    <h1 id="question-text"></h1>
+    <div id="options-container"></div>
+</div>
+
+@section Scripts {
+    <script src="~/Scripts/generate.js"></script>
+}
+

@@ -1,0 +1,61 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-color: mediumpurple;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#inputArea {
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    resize: none;
+}
+
+#submitButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#thankYouMessage {
+    display: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}

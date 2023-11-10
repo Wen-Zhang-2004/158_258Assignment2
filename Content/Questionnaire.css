@@ -1,0 +1,39 @@
+﻿
+/* 全局样式 */
+body {
+    
+    color: black; /* 字体颜色为白色 */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* 将内容包裹并水平和垂直居中显示 */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 使用视口高度保证垂直居中 */
+    text-align: center;
+}
+
+/* 题目样式 */
+h1 {
+    margin-bottom: 20px; /* 添加一些间距在题目和选项按钮之间 */
+}
+
+/* 选项按钮样式 */
+.option-button {
+    background-color: #ff9797; /* 设置按钮背景色为指定的颜色 */
+    border: none; /* 无边框 */
+    border-radius: 20px; /* 圆角边框 */
+    color: white; /* 设置按钮文字颜色为白色 */
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px 30px;
+    transition: background-color 0.3s ease; /* 平滑的背景色变化 */
+}
+
+    .option-button:hover {
+        background-color: #ff7f7f; /* 按钮在悬停时变化颜色 */
+    }
